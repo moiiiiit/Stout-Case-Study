@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Fraud Detection</title>
+    <meta name="description" content="Fraud Detection" />
+    <meta name="author" content="Mohit Bhole" />
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+  </head>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      text-align: center;
+      color: "#333";
+    }
+    p {
+      text-align: center;
+    }
+    div {
+      text-align: center;
+      font-weight: bold;
+    }
+    a {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>Mohit Bhole</h1>
+    <h1>
+      Data Analysis and Prediction for Fraud Detection
+      <a href="https://www.kaggle.com/ntnu-testimon/paysim1"> Dataset</a>
+      <a href="https://github.com/moiiiiit/Stout-Case-Study/">Github Page</a>
+    </h1>
+    <hr></hr>
+    <h1>Data Visualizations</h1>
+    <div>Transaction Types for Fraud</div>
+    <img
+      src="TransactionType-AllFraud.png"
+      alt="TransactionType-AllFraud"
+      class="center"
+    /><br></br>
+    <div>Transaction Types for Not Fraud</div>
+    <img src="TransactionType-NotFraud.png" alt="TransactionType-NotFraud" /><br></br>
+    <div>Transaction Types for Fraud that was flagged</div>
+    <img
+      src="TransactionType-FlaggedFraud.png"
+      alt="TransactionType-FlaggedFraud"
+    /><br></br>
+    <div>Transaction Types for Fraud that was not flagged (No such transactions)</div>
+    <img
+      src="TransactionType-NotFraudFlagged.png"
+      alt="TransactionType-NotFraudFlagged"
+    /><br></br>
+    <div>Balance Summary for Fraud that was Flagged</div>
+    <img
+      src="BalanceSummary_FlaggedFraud.png"
+      alt="BalanceSummary_FlaggedFraud"
+    /><br></br>
+    <div>Balance Summary for Fraud that was Not Flagged</div>
+    <img
+      src="BalanceSummary_NotFlaggedFraud.png"
+      alt="BalanceSummary_NotFlaggedFraud"
+    /><br></br>
+    <div>Probability of Fraud in the range of Amount in $, Flagged</div>
+    <img
+      src="ProbabilityOfFradInAmountRange-Flagged.png"
+      alt="ProbabilityOfFradInAmountRange-Flagged"
+    /><br></br>
+    <div>Probability of Fraud in the range of Amount in $, Unflagged</div>
+    <img
+      src="ProbabilityOfFradInAmountRange-UnFlagged.png"
+      alt="ProbabilityOfFradInAmountRange-UnFlagged"
+    /><br></br>
+    <div>Heatmap that shows how likely a transaction is a fraud according to the Amount and Old Bank Balance in the Destination Account</div>
+    <img src="Heatmap.png" alt="Heatmap" /><br></br>
+    <div>Scatter graph that shows a scatterplot showing frauds committed according to Amount and Source Account Balance</div>
+    <img
+      src="AmountofFraudvsOldBalanceOrg.png"
+      alt="AmountofFraudvsOldBalanceOrg"
+    />
+    <hr></hr>
+    <h1>Machine Learning Predictions</h1>
+    <div>Decision Tree Classsifier Algorithm Confusion Matrix (Test Accuracy - 99.9% with 77-33% split)</div>
+    <img src="DecisionTreePrediction.png" alt="DecisionTreePrediction" />
+    <br></br>
+    <div>Random Forest Classsifier Algorithm Confusion Matrix (Test Accuracy - 99.9% with 77-33% split)</div>
+    <img
+      src="RandomForestClassifierPrediction.png"
+      alt="RandomForestClassifierPrediction"
+    />
+    <hr></hr>
+  </body>
+</html>
