@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import pandas.plotting as plotting
 
 df = pd.read_csv("casestudy.csv")
 # FOR EACH YEAR
